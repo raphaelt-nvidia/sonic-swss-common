@@ -54,6 +54,8 @@ namespace swss {
 #define APP_NAPT_POOL_IP_TABLE_NAME     "NAPT_POOL_IP_TABLE"
 #define APP_NAT_DNAT_POOL_TABLE_NAME    "NAT_DNAT_POOL_TABLE"
 
+#define APP_TX_ERR_TABLE_NAME           "TX_ERR_APPL"
+
 /***** TO BE REMOVED *****/
 
 #define APP_TC_TO_QUEUE_MAP_TABLE_NAME  "TC_TO_QUEUE_MAP_TABLE"
@@ -226,6 +228,8 @@ namespace swss {
 #define CFG_NAT_BINDINGS_TABLE_NAME                 "NAT_BINDINGS"
 #define CFG_NAT_GLOBAL_TABLE_NAME                   "NAT_GLOBAL"
 
+#define CFG_PORT_TX_ERR_TABLE_NAME                  "TX_ERR_CFG"
+
 /***** STATE DATABASE *****/
 
 #define STATE_SWITCH_CAPABILITY_TABLE_NAME          "SWITCH_CAPABILITY_TABLE"
@@ -246,6 +250,7 @@ namespace swss {
 #define STATE_BGP_TABLE_NAME                        "BGP_STATE_TABLE"
 #define STATE_DEBUG_COUNTER_CAPABILITIES_NAME       "DEBUG_COUNTER_CAPABILITIES"
 #define STATE_NAT_RESTORE_TABLE_NAME                "NAT_RESTORE_TABLE"
+#define STATE_TX_ERR_TABLE_NAME                     "TX_ERR_STATE_TABLE"
 
 /***** MISC *****/
 
